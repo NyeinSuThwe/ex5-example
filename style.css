@@ -30,7 +30,8 @@ main {
 }
 
 .hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)), url("https://cdn.glitch.global/26868fbe-1af0-4689-92f8-b1c3ff159816/Yucca.jpeg?v=1664150251051");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)),
+    url("assets/mainpage.jpg");
   position: relative;
   height: 75vh;
   width: 100vw;
@@ -51,38 +52,38 @@ main {
   color: white;
 }
 
-p, ul, ol{
+p,
+ul,
+ol {
   margin: 2rem 0;
 }
 
-.hero-text p{
+.hero-text p {
   text-transform: uppercase;
   color: white;
   font-size: clamp(1rem, 2vw, 1.75rem);
 }
 
 .title {
-  color: #63B0F2;
-  font-family: Courier New, monospace;
-  font-weight: bold;
+  color: #2E8B57; /* swamp green */
+  font-family: "Courier New", monospace;
+  font-weight: 700;
   font-size: clamp(4rem, 15vw, 10rem);
-
   line-height: 90%;
   margin: 0;
 }
 
-article{
+article {
   margin: 3rem 5rem;
 }
 
 h1 {
   font-size: 3rem;
-  font-family: 'courier new', monospace;
 }
+
 h2 {
-  color: #5792E2;
+  color: #556B2F;
   font-size: 1.5rem;
-  font-family: 'courier new', monospace;
 }
 
 h3 {
@@ -93,7 +94,7 @@ li {
   list-style-position: inside;
 }
 
-article p.author{
+article p.author {
   margin: 2rem 0;
   color: #7B838C;
 }
@@ -101,7 +102,7 @@ article p.author{
 footer {
   width: 100%;
   height: 2.5rem;
-  background: #5792E2;
+  background: #3B3C40;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -119,7 +120,6 @@ img {
 
 footer a {
   color: white;
-  font-family: 'courier new', monospace;
   font-weight: 800;
   font-size: .75rem;
   text-transform: uppercase;
